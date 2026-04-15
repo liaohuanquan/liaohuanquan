@@ -2,7 +2,7 @@
 
 # QingJiao
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=F7F7F7&center=true&vCenter=true&width=435&lines=Building+neat+things;Open+source+enthusiast;Always+learning+new+tech)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=F7F7F7&center=true&vCenter=true&width=435&lines=%E7%84%A1%E9%99%90%E9%80%B2%E6%AD%A5;Infinite+Progress)](https://git.io/typing-svg)
 
 <!-- 贪吃蛇动画：根据 GitHub 主题自动切换深浅色 -->
 
