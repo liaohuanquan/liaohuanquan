@@ -28,10 +28,3 @@
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/liaohuanquan/liaohuanquan/output/github-contribution-grid-snake-dark.svg">
   <img alt="GitHub contribution snake" src="https://raw.githubusercontent.com/liaohuanquan/liaohuanquan/output/github-contribution-grid-snake.svg" width="900">
 </picture>
-
-## Contribution city
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/liaohuanquan/liaohuanquan/output/profile-night-green.svg">
-  <img alt="QingJiao's 3D contribution calendar" src="https://raw.githubusercontent.com/liaohuanquan/liaohuanquan/output/profile-green.svg" width="900">
-</picture>

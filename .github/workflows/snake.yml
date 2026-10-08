@@ -40,17 +40,9 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Generate contribution city
-        uses: yoshi389111/github-profile-3d-contrib@9e3f937195cf840d364388973f73e3c4b3753586
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          USERNAME: ${{ github.repository_owner }}
-
-      - name: Collect and validate images
+      - name: Validate images
         run: |
-          cp profile-3d-contrib/profile-green.svg dist/
-          cp profile-3d-contrib/profile-night-green.svg dist/
-          for file in activity.svg activity-dark.svg github-contribution-grid-snake.svg github-contribution-grid-snake-dark.svg profile-green.svg profile-night-green.svg; do
+          for file in activity.svg activity-dark.svg github-contribution-grid-snake.svg github-contribution-grid-snake-dark.svg; do
             test -s "dist/$file"
           done
 
