@@ -21,7 +21,7 @@
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/liaohuanquan/liaohuanquan/output/activity-dark.svg">
-  <img alt="Past-year contributions, pull requests and PR reviews" src="https://raw.githubusercontent.com/liaohuanquan/liaohuanquan/output/activity.svg" width="900">
+  <img alt="Past-year contributions, public pull requests and public PR reviews" src="https://raw.githubusercontent.com/liaohuanquan/liaohuanquan/output/activity.svg" width="900">
 </picture>
 
 <picture>

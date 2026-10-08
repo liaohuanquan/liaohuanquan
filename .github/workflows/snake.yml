@@ -28,6 +28,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_PROFILE_USERNAME: ${{ github.repository_owner }}
+          GITHUB_PROFILE_PUBLIC_ONLY: 'true'
 
       - name: Generate contribution snake
         uses: Platane/snk/svg-only@d8f6715049803e982ee5ff501b6b9b7d5deeb09b # v3

@@ -35,10 +35,11 @@ if (result.errors?.length) {
 const activity = result.data?.user?.contributionsCollection;
 if (!activity) throw new Error('GitHub returned no contribution data');
 
+const publicOnly = process.env.GITHUB_PROFILE_PUBLIC_ONLY === 'true';
 const stats = [
   ['Contributions', activity.contributionCalendar?.totalContributions],
-  ['Pull requests', activity.totalPullRequestContributions],
-  ['PR reviews', activity.totalPullRequestReviewContributions],
+  [publicOnly ? 'Public pull requests' : 'Pull requests', activity.totalPullRequestContributions],
+  [publicOnly ? 'Public PR reviews' : 'PR reviews', activity.totalPullRequestReviewContributions],
 ];
 for (const [label, value] of stats) {
   if (!Number.isSafeInteger(value) || value < 0) throw new Error(`Invalid ${label} count`);
